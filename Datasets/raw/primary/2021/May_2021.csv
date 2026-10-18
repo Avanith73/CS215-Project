@@ -1,63 +1,63 @@
-,Startup Name,Founding Date,City,Industry/Vertical,Sub-Vertical,Founders,Investors,Amount(in USD),Investment Stage
-0,Lenskart,2010,"Faridabad, Haryana",Fashion,Lenskart is an India-based online shopping portal for eyewear.,"Amit Chaudhary, Peyush Bansal","Kohlberg Kravis Roberts, Temasek Holdings","$95,000,000",
-1,ParkSmart,2018,New Delhi,Automotive,ParkSmart is a parking management application.,"Prateek Garg, Rahul Gupta, Ratan Anmol Sethi, Rishabh Nagpal, Vishva Sharma","Shireen Rangaswamy, Dilesh Gathani",Undisclosed,Seed
-2,Virohan,2018,Gurugram,EdTech,Virohan is an EdTech company that offers healthcare vocational training to students to build a career in the healthcare industry.,"Archit Jayasal, Kunaal Dudeja, Nalin Saluja, Paarul Dudeja","Rebright Partners, Wadhwani Foundation","$3,000,000",Series A
-3,BankSathi,2019,New Delhi,FinTech,"Bank Sathi provides loans, insurance, cards comparison, and approval facility.",Jitendra Dhaka,"Dinesh Godara, Aditya Talwar","$200,000",Seed
-4,Spark Studio,2020,Bangalore,EdTech,Online courses to build creativity and confidence in children through extra-curricular learning,Anushree Goenka,Better Capital,Undisclosed,Seed
-5,BlissClub,2020,Bangalore,Fashion,"BlissClub is a community first women’s activewear brand. It is a Direct-to-Consumer brand in the active lifestyle space, founded in 2020 by ISB Alum Minu Margeret",Minu Margeret,Elevation Capital,"$2,000,000",Seed
-6,BricSpaces,2018,Bangalore,Real estate,"A prop-tech company that finds and customizes offices, living, or retail spaces based on your requirements.",Madhusudhan,Angel investors,"$350,000",Pre-seed
-7,ANSR,2008,Bangalore,Consulting,"ANSR Consulting is providing end-to-end services for companies, setting up captive service centers.",Lalit Ahuja,"Sistema Asia Capital, Evolvence India Fund","$15,000,000",Series B
-8,Keito,2016,Pune,AI company,"NO-CODE <> Human-assisted machine learning platform for document processing, to break information silos for enterprises",Amal P S,"Rajesh Agarwal, Nandkishore Mundada",Undisclosed,Seed
-9,Reccy Adventures,2019,Gurugram,Sports startup,Reccy Adventures is an adventure sports startup.,"Amit Chowdhury, Siddhartha Chatterjee, Tapas Pal","Kallol Banerjee, Jaydeep Barman","$400,000",Seed
-10,Magenta EV,2017,Mumbai,Renewable Energy,Magenta is in the business of Enabling electric mobility & Making electricity clean,"Maxson Lewis, Darryl Dias","JITO Angel Network, LetsVenture","$15,000,000",Series A
-11,Karbon Card,2019,Bangalore,FinTech,Karbon Card is a financial platform for Indian entrepreneurs.,"Amit Jangir, Bo Li, Jianwei Chen, Kartik Jain, Pei-fu Hsieh, Sunil Kumar","MyAsia VC, Orios Venture Partners","$1,000,000",Pre-series A
-12,Wysa,2015,Bangalore,AI company,Wysa is an AI conversational agent that has been shown to help improve mental health,"Jo Aggarwal, Ramakant Vempati","W Health Ventures, Pi Ventures","$5,000,000",Series A
-13,Agnikul,2017,Chennai,SpaceTech,"Agnikul is a space tech startup that designs, manufactures, tests, and launch orbital class rockets for micro and nano satellites.","Moin SPM, Satyanarayanan Chakravarthy, Srinath Ravichandran","Artha India Ventures, Sriram Krishnan","$11,000,000",Series A
-14,LegalPay,2019,New Delhi,FinTech,A trusted financial partner for advocates and corporate.,Kundan Shahi,9Unicorns,Undisclosed,Seed
-15,Glamplus,2020,Bangalore,SaaS startup,India's #1 SaaS based Salon experience Software,Divyanshu Singh,Inflection Point Ventures,"$200,000",Pre-series A
-16,Tekie,2017,Gurugram,EdTech,"Tekie is a live coding platform for kids that uses the power of storytelling, to make learning to code a movie-like experience.","Anand Verma, Naman Mukund","GSV, Multiply Ventures","$1,500,000",Seed
-17,Asirvad Microfinance,2007,Chennai,FinTech,Asirvad Microfinance provides microfinance loans to women from a poor and low-income households.,Raja Vaidyanathan,"WorldBusiness Capital, Northern Arc","$15,000,000",
-18,Avalon Labs,2017,Bangalore,FinTech,"Avalon Labs incubates, invests, partners with and spearheads technology companies that are on the cutting edge.",Varun Mayya,"Tanglin Ventures, Better Capital, Whiteboard Capital",Undisclosed,Pre-series A
-19,Betterhalf.ai,2016,Bangalore,Matrimony,India’s first and only matrimony app without parents. 10L verified profiles 20L matches 50K relationships 3K marriages,"Rahul Namdev, Pawan Gupta","Y Combinator, Rehan A Khan","$3,000,000",Pre-series A
-20,Koo,2020,Bangalore,Social Media,Koo App operates as a microblogging app.,"Aprameya Radhakrishna, Mayank Bidawatka","Balaji Srinivasan, Naval Ravikant","$30,000,000",Series B
-21,Rezo.ai,2017,Noida,AI startup,Conversational AI platform - Innovate the way you communicate,"Manish Gupta, Rashi Gupta","Devesh Sachdev, Bhavesh Manglani",Undisclosed,Seed
-22,Mentoria,2015,Mumbai,EdTech,Mentoria is a holistic career discovery platform that enables students to discover themselves and the careers they will enjoy and excel at.,"Ashish Arora, Nikhar Arora, Sameer Bhakhri","Pradeep K Jaisingh, Jayant Mehrotra","$200,000",Pre-series A
-23,Cuvette Tech,2020,Bangalore,Human Resources,Help startups to find interns who are verified on their software development skills and problem-solving abilities.,"Atul Singhal, Sudhanshu Singh","Varun Alagh, Harish Daiya","$1,800,000",Seed
-24,Clensta,2016,New Delhi,BioTechnology,A biotechnology start-up was incorporated to improve the National Hygiene condition whilst addressing the aspect of water conservation.,Puneet Gupta,"IAN Fund, World Startup Factory","$600,000",
-25,FarMart,2015,Gurugram,AgriTech,FarMart is a micro-SaaS platform that helps food businesses source high quality produce at affordable prices,"Alekh Sanghera, Mehtab Singh Hans","Omidyar Network India, Avaana Capital","$24,000,000",Pre-series A
-26,Kodo Card,2019,Mumbai,FinTech,Kodo card is a corporate card for new economy businesses in India.,"Deepti Sanghi, Gaurav Thapa","Brex, Y-Combinator","$8,000,000",Seed
-27,Polygon,2017,Mumbai,Crypto,Polygon is a blockchain scalability platform.,"Jaynti Kanani, Sandeep Nailwal, Anurag Arjun","Mark Cuban, MiH Ventures",Undisclosed,
-28,Get My Parking,2015,New Delhi,Mobility,"Get My Parking, is a B2B Platform-as-a-Service company.","Chirag Jain, Rasik Pansare","IvyCap Ventures, IAN Fund","$6,000,000",
-29,Cellestial,2019,Hyderabad,Electronics,Cellestial E-mobility is a city-based startup working in developing electric tractors with the longest battery life.,Siddhartha Durairajan,"Gurj Aujla, Ashik K","$500,000",Pre-series A
-30,FanCode,2019,Mumbai,Sports startup,"FanCode is a multi sport aggregator platform for every sports fan, focusing on long trail sports content and contextual commerce.",Yannick Colaco,Dream Sports,"$50,000,000",
-31,Jai Kisan,2017,Mumbai,FinTech,Jai Kisan is a fintech platform that provides sustainable financing for rural emerging markets,"Adriel Maniego, Arjun Ahluwalia","The Chatterjee Group, Prophetic Ventures","$30,000,000",Series A
-32,Plum,2019,Bangalore,HealthCare,High quality health insurance and health benefits,"Abhishek Poddar, Saurabh Arora","Harsh Jain, Lalit Keshre","$15,000,000",Series A
-33,ThatMate,2019,Satara,HealthCare,ThatMate is a sexual and mental wellness app for teens.,Nishant Neeraj,"Supriya Kumari, Premanshu Singh","$140,000",
-34,Klassroom,2016,Mumbai,EdTech,Klassroom offers a one-of-a-kind LIVE interactive learning experience to students.,Alka Javeri,ah! Ventures,"$200,000",Pre-series A
-35,Convin,2019,Bangalore,SaaS startup,Convin is a conversation intelligence platform that helps remote sales teams to understand conversations on a deeper levels.,"Ashish Santhalia, Atul Shree, Bharat Patidar, Durgesh Choudhary","9Unicorns Accelerator Fund, Sunder Nookala","$300,000",Pre-seed
-36,Mensa Brands,2021,Bangalore,Clothing,"Mensa scales brands leveraging its expertise in ecommerce, technology, marketing, category management & demand planning.",Ananth Narayanan,"Accel Partners, Falcon Edge Capital, Norwest Venture Partners","$50,000,000",Series A
-37,Disruptium,2021,Ahmadabad,Consulting,A consultancy platform for startups,"Yash Shah, Kapil Mathrani, Ishit Desai",Pravesh Mehta,"$200,000",
-38,MedTel Healthcare,2017,Orissia,HealthCare,An aggregator for Digital Health Clinics in low resource settings.,"Ajit Choudhury, Lalit Ranjan Manik, Manish Kumar Swain, Shashank Singhal, Siba Prasad Panda",,"$5,000,000",Pre-series A
-39,Pickright Technologies,2019,Bangalore,FinTech,Pickright is a fintech marketplace platform for stock market investors and the stock market advisors.,"Namandeep Bhatia, Archana E","Gaurav Gupta, Vivek Srivatsav","$200,000",
-40,Ingenium,2018,New Delhi,EdTech,Ingenium Education has been pushing e-learning by bringing small and medium sized institutes and schools online.,"Pramudit Somvanshi, Mohit Patel, Aakash Gupta",Lead Angels,Undisclosed,Seed
-41,BharatPe,2018,New Delhi,FinTech,"BharatPe is the definitive platform for financial services. We process payments via UPI and POS, and provide credit / loans to our merchants","Ashneer Grover, Bhavik Koladiya, Shashvat Nakrani","Amplo, Insight Partners","$6,000,000",Debt
-42,RuleZero,2019,Bangalore,Tech Startup,Rulezero is a technology platform created by experienced startup executives to automate and manage the equity ownership of a startup.,"Satish Mugulavalli, Srinivas Katta","Induslaw, Reddy Futures","$1,000,000",Seed
-43,Rubix Data Sciences,2018,Mumbai,IT startup,"Rubix Data Sciences focuses on simplifying decision making for Credit, Risk, Compliance, Supply Chain and Marketing professionals in the B2B domain.",Mohan Ramaswamy,,"$800,000",Seed
-44,Locobuzz,2011,Mumbai,Analytics,LocoBuzz is an analytics-based integrated marketing platform.,Vishal Agrawal,Yuj Ventures,"$4,000,000",Series A
-45,We Founder Circle,2020,Mumbai,FinTech,"A global platform of founders for founders offering investment, network and business opportunities.",Neeraj Tyagi,Geekster,"$2,000,000",Pre-seed
-46,Haqdarshak,2015,Jaipur,Finance,Haqdarshak is a tech platform that connects citizens with their eligible welfare schemes.,"Aniket Doegar, Asha Krishnan, PR Ganapathy","Manish Subramaniam, Upaya Social Ventures","$800,000",Pre-series A
-47,Celcius,2020,Mumbai,Logistics,The “ONLINE” Cold Chain network for Reefer trucks and Cold storage facilities.,"Swarup Bose, Rajneesh Raman, Arbind Jain",Eaglewings Ventures,Undisclosed,Seed
-48,Enthu.ai,2020,Chandigarh,AI startup,Enthu.AI operates as a conversation intelligence startup.,"Tushar Jain, Vishal Verma",Appit Simple Infotek,"$200,000",
-49,Myelin Foundry,2019,Bangalore,AI startup,"Myelin Foundry is a deep tech product start-up transforming human experiences and industry outcomes by building Artificial Intelligence algorithms on video, voice, and sensor data, for consumer edge devices","Gopichand Katragadda, Ganesh Suryanarayanan, Aditi Olemann",Beyond Next Ventures,"$1,000,000",Pre-series A
-50,SuperOps.ai,2020,Chennai,AI startup,SuperOps.ai is an early stage startup in the MSP space.,"Arvind Parthiban, Jayakumar Karumbasalam","Ramakant Sharma, Elevation Capital","$3,000,000",Seed
-51,6Degree,2014,Mumbai,Retail,6Degree is a fashion retail startup that provides a launchpad to fashion talent and brands using a tech-enabled platform.,"Amit Bhardwaj, Nikhil Hegde","Keiretsu Forum, SucSEED Venture Partners","$1,000,000",
-52,Teachmint,2020,Bangalore,EdTech,Teachmint is an online learning platform that focuses on tutor-student connectivity.,"Anshuman Kumar, Divyansh Bordia, Mihir Gupta, Payoj Jain","Lightspeed India Partners, CM Ventures","$16,500,000",Series A
-53,Sarathi,2020,Jodhpur,HealthCare,"Offer a range of services like lab tests, consultation at home, nursing services, emergency services, and appointment management.",Aditi Poyam,,"$100,000",Seed
-54,Jidoka Technologies,2018,Chennai,Software,"Deliver automation of visual inspection, retaining the power of human intelligence, to enhance quality and efficiency",Sekar Udayamurthy,,"$340,000",Seed
-55,Rapido,2015,Bangalore,Transportation,Rapido is a bike taxi service that encourages people to offer bike rides to other people.,"Aravind Sanka, Pavan Guntupalli, Rishikesh SR","Skycatcher, Nexus Venture Partners","$43,000,000",Series C
-56,BYJU'S,2011,Bangalore,EdTech,BYJU'S is an educational technology company that develops personalized learning programs for K-12 students.,"Byju Raveendran, Divya Gokulnath","Tiga Investments, Baron Capital","$150,000,000",
-57,ElasticRun,2015,Pune,E-commerce,ElasticRun develops an online system that improves the reception of orders from customers and the dispatch of delivery drivers.,"Sandeep Deshmukh, Saurabh Nigam, Shitiz Bansal","Avataar Venture Partners, Kalaari Capital","$75,000,000",Series D
-58,Avail Finance,2017,Bangalore,FinTech,Avail is a mobile-first platform aiming to financially include the urban mass of India.,"Ankush Aggarwal, Tushar Mehndiratta","Alteria Capital, Matrix Partners India","$3,000,000",Debt
-59,Nivesh,2016,Noida,FinTech,Nivesh.com is a mass market mutual funds investment platform.,"Anurag Garg, Sridhar Srinivasan","Raghav Kapur, Indian Angel Network","$1,600,000",Pre-series A
-60,Thingsup,2020,Pune,IoT platform,Thingsup is an Enterprise Grade IoT Platform.,"Akshay Ghadage, Pranav Naiknavare",GSF Accelerator,"$1,000,000",
-61,Arthya Wealth and Investments,2020,Mumbai,FinTech,"A comprehensive, high quality, open-architecture based Wealth Management and Investment Advisory platform, to cater to investors across the board: Individuals, Businesses/Corporate Treasuries, Family Offices, Trusts and more.",Gaurav Arora,"Rishi Kumar Bagla, Krishen Lal Khanna","$1,000,000",Pre-series A
+Sr. No.,Investment Date,Startup Name,Industry,City,Amount(in USD),Investment Stage
+0,01/05/2021,Lenskart,Fashion,"Faridabad, Haryana","$95,000,000",
+1,01/05/2021,ParkSmart,Automotive,New Delhi,Undisclosed,Seed
+2,01/05/2021,Virohan,EdTech,Gurugram,"$3,000,000",Series A
+3,01/05/2021,BankSathi,FinTech,New Delhi,"$200,000",Seed
+4,01/05/2021,Spark Studio,EdTech,Bangalore,Undisclosed,Seed
+5,01/05/2021,BlissClub,Fashion,Bangalore,"$2,000,000",Seed
+6,01/05/2021,BricSpaces,Real estate,Bangalore,"$350,000",Pre-seed
+7,01/05/2021,ANSR,Consulting,Bangalore,"$15,000,000",Series B
+8,01/05/2021,Keito,AI company,Pune,Undisclosed,Seed
+9,01/05/2021,Reccy Adventures,Sports startup,Gurugram,"$400,000",Seed
+10,01/05/2021,Magenta EV,Renewable Energy,Mumbai,"$15,000,000",Series A
+11,01/05/2021,Karbon Card,FinTech,Bangalore,"$1,000,000",Pre-series A
+12,01/05/2021,Wysa,AI company,Bangalore,"$5,000,000",Series A
+13,01/05/2021,Agnikul,SpaceTech,Chennai,"$11,000,000",Series A
+14,01/05/2021,LegalPay,FinTech,New Delhi,Undisclosed,Seed
+15,01/05/2021,Glamplus,SaaS startup,Bangalore,"$200,000",Pre-series A
+16,01/05/2021,Tekie,EdTech,Gurugram,"$1,500,000",Seed
+17,01/05/2021,Asirvad Microfinance,FinTech,Chennai,"$15,000,000",
+18,01/05/2021,Avalon Labs,FinTech,Bangalore,Undisclosed,Pre-series A
+19,01/05/2021,Betterhalf.ai,Matrimony,Bangalore,"$3,000,000",Pre-series A
+20,01/05/2021,Koo,Social Media,Bangalore,"$30,000,000",Series B
+21,01/05/2021,Rezo.ai,AI startup,Noida,Undisclosed,Seed
+22,01/05/2021,Mentoria,EdTech,Mumbai,"$200,000",Pre-series A
+23,01/05/2021,Cuvette Tech,Human Resources,Bangalore,"$1,800,000",Seed
+24,01/05/2021,Clensta,BioTechnology,New Delhi,"$600,000",
+25,01/05/2021,FarMart,AgriTech,Gurugram,"$24,000,000",Pre-series A
+26,01/05/2021,Kodo Card,FinTech,Mumbai,"$8,000,000",Seed
+27,01/05/2021,Polygon,Crypto,Mumbai,Undisclosed,
+28,01/05/2021,Get My Parking,Mobility,New Delhi,"$6,000,000",
+29,01/05/2021,Cellestial,Electronics,Hyderabad,"$500,000",Pre-series A
+30,01/05/2021,FanCode,Sports startup,Mumbai,"$50,000,000",
+31,01/05/2021,Jai Kisan,FinTech,Mumbai,"$30,000,000",Series A
+32,01/05/2021,Plum,HealthCare,Bangalore,"$15,000,000",Series A
+33,01/05/2021,ThatMate,HealthCare,Satara,"$140,000",
+34,01/05/2021,Klassroom,EdTech,Mumbai,"$200,000",Pre-series A
+35,01/05/2021,Convin,SaaS startup,Bangalore,"$300,000",Pre-seed
+36,01/05/2021,Mensa Brands,Clothing,Bangalore,"$50,000,000",Series A
+37,01/05/2021,Disruptium,Consulting,Ahmadabad,"$200,000",
+38,01/05/2021,MedTel Healthcare,HealthCare,Orissia,"$5,000,000",Pre-series A
+39,01/05/2021,Pickright Technologies,FinTech,Bangalore,"$200,000",
+40,01/05/2021,Ingenium,EdTech,New Delhi,Undisclosed,Seed
+41,01/05/2021,BharatPe,FinTech,New Delhi,"$6,000,000",Debt
+42,01/05/2021,RuleZero,Tech Startup,Bangalore,"$1,000,000",Seed
+43,01/05/2021,Rubix Data Sciences,IT startup,Mumbai,"$800,000",Seed
+44,01/05/2021,Locobuzz,Analytics,Mumbai,"$4,000,000",Series A
+45,01/05/2021,We Founder Circle,FinTech,Mumbai,"$2,000,000",Pre-seed
+46,01/05/2021,Haqdarshak,Finance,Jaipur,"$800,000",Pre-series A
+47,01/05/2021,Celcius,Logistics,Mumbai,Undisclosed,Seed
+48,01/05/2021,Enthu.ai,AI startup,Chandigarh,"$200,000",
+49,01/05/2021,Myelin Foundry,AI startup,Bangalore,"$1,000,000",Pre-series A
+50,01/05/2021,SuperOps.ai,AI startup,Chennai,"$3,000,000",Seed
+51,01/05/2021,6Degree,Retail,Mumbai,"$1,000,000",
+52,01/05/2021,Teachmint,EdTech,Bangalore,"$16,500,000",Series A
+53,01/05/2021,Sarathi,HealthCare,Jodhpur,"$100,000",Seed
+54,01/05/2021,Jidoka Technologies,Software,Chennai,"$340,000",Seed
+55,01/05/2021,Rapido,Transportation,Bangalore,"$43,000,000",Series C
+56,01/05/2021,BYJU'S,EdTech,Bangalore,"$150,000,000",
+57,01/05/2021,ElasticRun,E-commerce,Pune,"$75,000,000",Series D
+58,01/05/2021,Avail Finance,FinTech,Bangalore,"$3,000,000",Debt
+59,01/05/2021,Nivesh,FinTech,Noida,"$1,600,000",Pre-series A
+60,01/05/2021,Thingsup,IoT platform,Pune,"$1,000,000",
+61,01/05/2021,Arthya Wealth and Investments,FinTech,Mumbai,"$1,000,000",Pre-series A
