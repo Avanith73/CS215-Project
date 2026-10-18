@@ -1,0 +1,140 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[margin=1.55cm,top=1.45cm,bottom=1.45cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{array}
+
+\definecolor{navy}{HTML}{17365D}
+\definecolor{muted}{HTML}{4B5563}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=navy,
+  urlcolor=navy,
+  citecolor=navy,
+  pdfauthor={Team 40},
+  pdftitle={A Comprehensive Analysis of the Indian Startup Ecosystem}
+}
+\titleformat{\section}{\large\bfseries\color{navy}}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\normalsize\bfseries\color{navy}}{}{0em}{}
+\titlespacing*{\section}{0pt}{7pt}{4pt}
+\titlespacing*{\subsection}{0pt}{5pt}{2pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{3pt}
+\setlist[itemize]{leftmargin=*,nosep,topsep=2pt}
+\setlist[enumerate]{leftmargin=*,nosep,topsep=2pt}
+\urlstyle{same}
+\sloppy
+
+\begin{document}
+
+\begin{center}
+  {\LARGE\bfseries\color{navy} Team 40: A Comprehensive Analysis of the Indian Startup Ecosystem}\\[4pt]
+  {\small
+  B. Avanith (25B1013) \quad|\quad Shanmukha Sai (25B0907)\\
+  Tejesh (25B0905) \quad|\quad Anirudh (25B1021)}
+\end{center}
+\vspace{-2pt}
+
+
+\section{Project Hypothesis and Research Questions}
+
+This project aims to investigate the evolution of India's startup
+ecosystem between 2015 and 2021, focusing on changes in the geographical
+and sectoral distribution of startup funding. It will then examine the
+characteristics of startups that achieved unicorn status, exploring
+whether common patterns emerge among these successful companies.
+
+\subsection*{Primary Research Question}
+\textbf{How did the city and sector composition of Indian startup
+funding change from 2015 to 2021?}
+
+We will investigate the following sub-questions:
+
+\begin{enumerate}
+    \item \textbf{Is Bangalore's dominance in India's startup ecosystem
+    a thing of the past?} How has its share of startup funding changed
+    relative to other major hubs such as Delhi-NCR and Mumbai, and
+    have emerging cities gained ground?
+
+    \item \textbf{Who's getting the money?} Which sectors have attracted
+    the most startup funding, and have India's investment priorities
+    shifted between 2015 and 2021?
+
+    \item \textbf{Did COVID-19 rewrite the startup playbook?} How did
+    the pandemic coincide with changes in funding volumes, sectoral
+    preferences and the geographical distribution of startup funding?
+\end{enumerate}
+
+\subsection*{Follow-up Research Question}
+\textbf{What does the path to unicorn status among Indian startups
+look like?}
+
+We will explore the following sub-questions:
+
+\begin{enumerate}
+    \item \textbf{What does the timeline look like?} How long do Indian
+    startups typically take to reach a valuation of US\$1 billion,
+    and how does it vary across companies?
+
+    \item \textbf{Does location or industry determine a unicorn's
+    destiny?} Which cities and sectors have produced the most
+    Indian unicorns?
+
+    \item \textbf{What's the unicorn formula?} What patterns emerge
+    in unicorns' valuations and annual revenues?
+\end{enumerate}
+
+Using startup funding records and a separate dataset of Indian unicorns,
+we will apply data cleaning, descriptive statistics and visualisation
+techniques to document trends. The COVID-19 analysis and, similarly,
+the unicorn analysis will be exploratory, looking for associated
+changes (correlation) rather than implying causation. Differences in
+coverage, missing values and other inconsistencies will be documented
+when interpreting the findings.
+
+
+\section{Datasets}
+\begin{enumerate}
+  \item \textbf{Startup Funding Dataset (2015--2021).} Monthly/tabular records of funding raised by Indian startups, with fields including city, founding date, industry, investors and amount (USD).\\
+  \textit{Source:} \href{https://www.kaggle.com/datasets/arpan129/startups-funding-dataset}{Kaggle -- Startups Funding Dataset}.
+  \item \textbf{List of 118 Indian Unicorn Startups (May 2025).} A curated list extracted from Tracxn, with location, sector, time-to-unicorn, valuation, investors and annual revenue.\\
+  \textit{Source:} \href{https://www.kaggle.com/datasets/srisankargiri/list-of-118-unicorn-startups-in-indiamay-2025}{Kaggle -- Indian Unicorn Startups}.
+\end{enumerate}
+
+\section{Background Sources}
+\begin{itemize}
+  \item Growth91, \textit{Best Startup Sectors in India to Invest In for High Growth (2026)}: \href{https://growth91.com/blog/best-startup-sectors-india-invest-high-growth-2026/}{article link}.
+  \item Saurabh Kapoor, \textit{Explained: What is a unicorn, and what does it take to become one?}, \textit{The Indian Express}: \href{https://indianexpress.com/article/explained/everyday-explainers/explained-what-is-a-unicorn-and-what-does-it-take-to-become-one-7944468/}{article link}.
+  \item Think School, \textit{How Bangalore became the Silicon Valley of Asia?}: \href{https://youtu.be/cjhlcIOgUy4}{YouTube case study}.
+  \item Nikhil Kamath, \textit{Inside India's Next Gen Startups}: \href{https://youtu.be/yFyIBKK361E}{YouTube podcast}.
+\end{itemize}
+
+\section{Intended Languages, Tools and Software}
+We plan to use Python as the primary language, with pandas for loading, cleaning and grouping tabular data;
+SciPy.stats for  statistical analysis ; and Matplotlib and Seaborn for plots. We will be using Plotly to create interactive charts and a lightweight Plotly
+Dash dashboard to present city-wise, sector-wise and year-wise patterns. Jupyter Notebook will support exploration and GitHub will be used for version control and collaboration. We will consider R or
+Tableau/Power BI only as alternatives if they offer a clear advantage for a particular analysis or dashboard.
+
+\section{Logistics and Work Plan}
+\textbf{Coordination and schedule:} The team will follow the project schedule and task outline recorded in the shared \href{https://docs.google.com/spreadsheets/d/1rOHg7PRTUyQhNcKS4sHRMWOS8t5IsXoPo_IaoyhDdhA/edit?usp=sharing}{logistics spreadsheet}, updating it as the project progresses. We will coordinate through GitHub and a WhatsApp group chat, and work in our hostel rooms, reading halls and CC503 as appropriate.
+
+\textbf{Proposed division of work:}
+\begin{itemize}
+  \item \textbf{Brainstorming, data collection and data cleaning:} as a team.
+  \item \textbf{Until the first checkpoint -- coding and analysis:} Shanmukha and Tejesh; \textbf{visualisations:} Avanith and Anirudh.
+  \item \textbf{After the first checkpoint -- coding and analysis:} Avanith and Anirudh; \textbf{visualisations:} Shanmukha and Tejesh.
+  \item \textbf{Status report:} Avanith. \quad
+  \textbf{Video presentation:} Avanith and Shanmukha.
+  \item \textbf{Video editing:} Tejesh. \quad
+  \textbf{Final report:} Avanith.
+\end{itemize}
+
+\textbf{Help requested from the teaching team:} No specific assistance has been identified yet. We may seek guidance regarding the appropriate metrics for analysis,software use etc. as the project progresses.
+\end{document}
