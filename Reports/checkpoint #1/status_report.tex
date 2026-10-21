@@ -1,0 +1,261 @@
+
+\documentclass[10pt,a4paper]{article}
+
+% ---------- Packages ----------
+\usepackage[margin=1.8cm,headheight=14pt]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+
+% ---------- Colours and hyperlinks ----------
+\definecolor{headingblue}{RGB}{30,65,105}
+\definecolor{lightblue}{RGB}{235,242,249}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=headingblue,
+    urlcolor=headingblue
+}
+
+% ---------- Page layout ----------
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt}
+\renewcommand{\arraystretch}{1.25}
+
+\setlist[itemize]{
+    leftmargin=1.5em,
+    itemsep=3pt,
+    topsep=3pt
+}
+\setlist[enumerate]{
+    leftmargin=1.7em,
+    itemsep=5pt,
+    topsep=4pt
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small Team 40}
+\fancyhead[R]{\small Checkpoint One Status Report}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% ---------- Section formatting ----------
+\usepackage{titlesec}
+
+\titleformat{\section}
+  {\large\bfseries\color{headingblue}}
+  {\thesection.}{0.5em}{}
+
+\titleformat{\subsection}
+  {\normalsize\bfseries\color{headingblue}}
+  {\thesubsection}{0.5em}{}
+
+\titlespacing*{\section}{0pt}{12pt}{5pt}
+\titlespacing*{\subsection}{0pt}{8pt}{3pt}
+
+\begin{document}
+
+% =========================================================
+% TITLE
+% =========================================================
+
+\begin{center}
+    {\LARGE\bfseries Checkpoint One Status Report}\\[5pt]
+    {\large A Comprehensive Analysis of the Indian Startup Ecosystem}\\[8pt]
+    {\normalsize\textbf{Team 40}}
+\end{center}
+
+\vspace{3pt}
+\hrule
+\vspace{5pt}
+
+% =========================================================
+% PAGE 1: METADATA AND PROGRESS
+% =========================================================
+
+\section{Meta-Information}
+
+\begin{tabularx}{\textwidth}{@{}>{\bfseries}p{3.7cm}X@{}}
+Open Project Title &
+A Comprehensive Analysis of the Indian Startup Ecosystem \\
+
+Group Number & 40 \\
+
+Mentor Name & Duggineni Venkata Yugesh \\
+
+Team Members &
+Avanith (25B1013), Shanmukha (25B0907),
+Tejesh (25B0905), Anirudh (25B1021) \\
+
+GitHub Repository &
+\textit{[Insert repository link]} \\
+\end{tabularx}
+
+\section{Progress}
+
+\subsection{Datasets}
+
+\textbf{Dataset 1: Startup Funding (2015--2021).}
+Records of Indian startup investments containing investment dates,
+startup names, industries, cities, funding amounts, and investment
+stages.
+
+\begin{center}
+\small
+\rowcolors{2}{lightblue}{white}
+\begin{tabular}{c|rrrrrrr|r}
+\toprule
+\textbf{Year}
+& 2015 & 2016 & 2017 & 2018 & 2019 & 2020 & 2021
+& \textbf{Total}\\
+\midrule
+Records
+& 4762 & 1018 & 685 & 310 & 111 & 978 & 1209
+& 9073\\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{Dataset 2: Indian Unicorns (May 2025).}
+A curated list of 118 Indian unicorn startups, including location,
+sector, time-to-unicorn, valuation, investors, and annual revenue.
+
+\subsection{Data Cleaning and Preprocessing}
+
+The following steps have been completed:
+
+\begin{enumerate}
+    \item Yearly funding files were standardised to a common
+    seven-column schema and consolidated into \texttt{merged.csv}.
+
+    \item Startup name variants were normalised. City names such as
+    Bangalore and Bengaluru were consolidated, while cities outside
+    India were grouped under ``Abroad''.
+
+    \item Empty and irrelevant rows were removed. Investment stages
+    were mapped to ten categories: Pre-Seed/Angel, Seed Funding,
+    Pre-Series A, Series A, Series B, Series C, Series D \& Above,
+    Private Equity, Debt/Bridge, and Undisclosed/Other.
+
+    \item Funding amounts were converted to numeric values.
+    Valuations, annual revenues, and total funding in the unicorn
+    dataset were converted to crores of Indian rupees.
+\end{enumerate}
+
+\textbf{Updated Spreadsheet:}
+\textit{[Insert spreadsheet link]}
+
+\subsection{Division of Responsibilities}
+
+Data collection and cleaning were performed collaboratively.
+Avanith, Shanmukha, and Tejesh primarily handled Dataset 1,
+while Anirudh focused on the analysis of Dataset 2.
+
+\subsection{Challenges Encountered}
+
+\begin{enumerate}
+    \item \textbf{Uneven yearly coverage:} The dataset contains
+    4,762 records for 2015 but only 111 for 2019, potentially
+    distorting comparisons based on raw deal counts.
+
+    \item \textbf{Inconsistent industry labels:} The 2015
+    Industry/Vertical entries are more elaborate than those in
+    subsequent years, complicating sector-wise standardisation.
+
+    \item \textbf{Incomplete dates:} Where the exact day was
+    unavailable, the first day of the corresponding month was
+    assigned as a placeholder. These dates are approximate and
+    unsuitable for precise daily-level analysis.
+\end{enumerate}
+
+% =========================================================
+% PAGE 2: RESEARCH AND ANALYSIS
+% =========================================================
+
+\newpage
+
+\section{Refined Problem Statement}
+
+This study examines the geographical and sectoral distribution
+of startup investment in India between 2015 and 2021, alongside
+the characteristics and funding trajectories of startups that
+eventually attained unicorn status.
+
+\subsection{Research Question 1: Evolution of Startup Funding}
+
+\textit{How did the distribution of startup investment across
+Indian cities and sectors evolve between 2015 and 2021?}
+
+The analysis will compare cities' shares of disclosed funding
+and deal counts to assess changes in Bangalore's relative position
+alongside Delhi-NCR, Mumbai, and emerging hubs. It will also
+identify leading recipient sectors and examine shifts in their
+funding shares, particularly around the COVID-19 period.
+
+\subsection{Research Question 2: Characteristics of Unicorns}
+
+\textit{What funding and business characteristics are associated
+with Indian startups that achieve unicorn status?}
+
+The analysis will investigate the time required to reach a
+US\$1 billion valuation, the geographical and sectoral distribution
+of unicorns, and variation in their reported valuations and
+annual revenues.
+
+Investment stages will also be examined to understand funding
+trajectories as startups progress towards unicorn status. Comparing
+early-stage and late-stage investments may reveal common financing
+patterns and differences across sectors and cities.
+
+\section{Methodology}
+
+Both datasets will be analysed using descriptive statistics,
+comparative analysis, and visualisation.
+
+\begin{itemize}
+    \item \textbf{Funding analysis:} Use total disclosed funding
+    and deal counts to compare cities, sectors, and years.
+    Transactions with undisclosed amounts will count as deals
+    but will be excluded from monetary totals.
+
+    \item \textbf{Unicorn analysis:} Examine time-to-unicorn,
+    location, sector, valuations, revenues, and investment-stage
+    patterns.
+
+    \item \textbf{Temporal analysis:} Investigate changes in
+    funding activity and composition around the COVID-19 period.
+\end{itemize}
+
+The study is exploratory: it aims to identify patterns and
+associations rather than establish causal relationships.
+
+\section{Limitations}
+
+\begin{itemize}
+    \item Funding coverage varies substantially across years,
+    and many transactions have undisclosed amounts.
+
+    \item Inconsistent labels and approximate investment dates
+    may affect comparisons and temporal precision.
+
+    \item The unicorn dataset is subject to survivorship bias
+    because it includes only successful companies. Its financial
+    figures may also reflect different reporting dates.
+\end{itemize}
+
+\section{Next Steps}
+
+The next phase will involve city-wise, sector-wise, and year-wise
+funding analysis; investigation of changes around COVID-19;
+analysis of unicorn characteristics and investment stages; and
+the preparation of visualisations with appropriate consideration
+of data quality and coverage.
+
+\end{document}
